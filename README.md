@@ -1,5 +1,7 @@
 # Python Scaffold
 
+[![Python 3.8](https://github.com/Friend09/python-scaffold/actions/workflows/main.yml/badge.svg)](https://github.com/Friend09/python-scaffold/actions/workflows/main.yml)
+
 This is a scaffold project designed to help you practice the concepts learned from the Noah Gift YouTube [video](https://www.youtube.com/watch?v=-mdv2wf8yQ8).
 
 ## Getting Started
