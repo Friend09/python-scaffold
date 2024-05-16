@@ -17,12 +17,13 @@ Follow these steps to set up and use the Python scaffold project:
 
    - Clone the newly created GitHub repository to your local machine or a cloud-based environment like Cloud9.
 
-3. **Create Required Files**
+3. **Create Required Files and Folders**
 
    - Using the terminal, navigate to the repository's directory.
    - Run the following command to create essential files:
      ```bash
      touch Makefile hello.py requirements.txt test_hello.py
+     mkdir data dev notes files notebooks;
      ```
 
 4. **Create a Virtual Environment**
@@ -98,11 +99,23 @@ Follow these steps to set up and use the Python scaffold project:
      make install
      ```
 
-10. **Code Formatting and Testing**
+10. **Code Formatting and Testing [optional]**
     - To ensure your `hello.py` code is correctly formatted and tested, run the following commands:
       ```bash
       make format
       make test
+      ```
+11. **Update Git repo and push changes to git**
+    - Check what changes are made to the repo
+      `git status`
+    - update .gitignore to exclude any not needed files, large files etc
+       - `git status` to check the status
+       - looking at the changes needed from the status get the list of items to be added to .gitignore. eg: `ref_*` to ignore any reference repos that were installed
+    - commit all necessary changes in the repo and push the changes back to the remote repo
+      ```
+      git add .
+      git commit "<what are the changes>"
+      git push -u origin main
       ```
 
 ## Folder Architecture
